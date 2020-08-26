@@ -5,5 +5,5 @@ function isPrimeNumber(num) {
     return num > 1;
   }
   
-  console.log(isPrimeNumber(4));  
+  console.log(isPrimeNumber(9));  
 
