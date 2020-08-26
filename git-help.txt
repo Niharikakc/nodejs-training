@@ -1,0 +1,11 @@
+1. To download latest from trainers folder
+
+	* goto folder TrainersRepository
+	* run the command -- git pull
+
+
+2. To update the assigments done by you on repository
+
+	* goto folder MyWorks
+	* run the command --
+		git-update some message
