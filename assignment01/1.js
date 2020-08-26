@@ -6,4 +6,4 @@ function isPrime(n) {
   }
   
   console.log(isPrime(1));  
-  console.log(isPrime(2));  
+
