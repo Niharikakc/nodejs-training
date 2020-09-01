@@ -69,7 +69,7 @@ export class BookListComponent implements OnInit {
   }
 
   onIncrease(){
-    if(this.imageWidth < 250){
+    if(this.imageWidth < this.maxWidth){
       this.imageWidth += this.delta;
     }
     else{
@@ -78,7 +78,7 @@ export class BookListComponent implements OnInit {
   }
 
   onDecrease(){
-    if(this.imageWidth > 50){
+    if(this.imageWidth > this.minWidth){
       this.imageWidth -= this.delta;
     }
     else{
