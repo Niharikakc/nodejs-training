@@ -8,8 +8,7 @@
         <tr>
             <th *ngIf='showImages'>
                 Poster
-                <input type='button' value='+' (click)='onIncrease()' >
-                <input type='button' value='-' (click)='onDecrease()'>
+                <ca-range></ca-range>
             </th>
             <th>Title</th>
             <th>Author</th>
@@ -28,7 +27,11 @@
             <td>{{book.title}}</td>
             <td>{{book. author}}</td>
             <td>{{book.price}}</td>
-            <td>{{book.rating}}</td>
+            <td>
+                {{book.rating}}
+                
+
+            </td>
         </tr>
      
         
